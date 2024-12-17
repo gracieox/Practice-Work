@@ -41,3 +41,5 @@ for key in alien.keys():
     print(alien[key])
 for item in alien.items():
     print (item)
+for key, value in alien.items(): #unpacking with tuple
+    print(key,value)
